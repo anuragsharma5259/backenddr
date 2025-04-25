@@ -6,6 +6,7 @@ import {changeAvailablity} from '../controllers/doctorcontroller.js'
 
 import upload from '../middlewares/multer.js'
 
+
 const adminrouter=express.Router()
 
 adminrouter.post('/add-doctor',authAdmin,upload.single('image'),addDoctor)
