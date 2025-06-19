@@ -7,7 +7,7 @@ import stripe from "stripe";
 import { v2 as cloudinary } from "cloudinary";
 import doctorModel from '../models/doctorModel.js'
 import appointmentModel from '../models/appointmentModel.js'
-import { useNavigate, useParams } from "react-router-dom";
+
 
 
 const stripeInstance = new stripe(process.env.STRIPE_SECRET_KEY)
