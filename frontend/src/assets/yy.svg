@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="217" height="46" viewBox="0 0 217 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="217" height="46" fill="transparent" x="-6.039" y="-2.684"/>
+  <g transform="matrix(0.639087, 0, 0, 0.880517, -33.952584, -0.162652)" style="">
+    <circle cx="90.896" cy="16.283" r="15" fill="#63B3ED"/>
+    <path d="M 69.071 45.902 C 69.071 35.902 79.071 27.902 91.071 27.902 C 103.071 27.902 113.071 35.902 113.071 45.902 L 113.071 51.902 L 69.071 51.902 L 69.071 45.902 Z" fill="#4299E1"/>
+    <path d="M 86.046 31.519 C 87.546 31.519 88.046 32.519 89.046 33.519 L 92.046 38.519 L 95.046 33.519 C 96.046 32.519 96.546 31.519 98.046 31.519" stroke="#2B6CB0" stroke-width="2"/>
+    <rect x="60" y="25" width="4" height="16" fill="#3182CE"/>
+    <rect x="54" y="31" width="16" height="4" fill="#3182CE"/>
+    <text x="114.123" y="41.619" font-family="Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#1E3A8A" style="white-space: pre; font-size: 28px;">DrConsult</text>
+    <text x="244.855" y="42" font-family="Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#1E3A8A" style="white-space: pre; font-size: 28px;">Mate</text>
+  </g>
+</svg>
