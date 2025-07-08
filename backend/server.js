@@ -33,18 +33,7 @@ app.use('/api/user',userrouter)
 app.get('/',(req,res)=>{
     res.send('api working is great')
 })
-// const addAvailabilityToAll = async () => {
-//     try {
-//       const result = await doctorModel.updateMany(
-//         { available: { $exists: false } },
-//         { $set: { available: true } }
-//       );
-//       console.log(`✅ Updated ${result.modifiedCount} doctors`);
-//     } catch (err) {
-//       console.error("❌ Error updating doctors:", err);
-//     }
-//   };
-  // call it during server start
+
 
 app.listen(port,()=> console.log("server started",port) );
 
