@@ -23,21 +23,9 @@ connectCloudinary();
 app.use(express.json());
 
 // ✅ Updated CORS setup for multiple frontend URLs
-const allowedOrigins = [
-  "https://drconsult.vercel.app",
-  "https://drconsultadmin.vercel.app"
-];
-
 app.use(cors({
-  origin: function (origin, callback) {
-    // Allow requests with no origin (like Postman or mobile apps)
-    if (!origin) return callback(null, true);
-    if (allowedOrigins.includes(origin)) {
-      return callback(null, true);
-    } else {
-      return callback(new Error("Not allowed by CORS"));
-    }
-  },
+  origin: "https://drconsult.vercel.app",
+
   credentials: true
 }));
 
